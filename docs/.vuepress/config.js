@@ -5,7 +5,7 @@ module.exports = {
     nav: [{
       text: 'Home', link:'/'
     }, {
-      text:'Githun', link:'https://guthub.com/chen1366142688/tanmaUI'
+      text:'Github', link:'https://guthub.com/chen1366142688/tanmaUI'
       }, {
         text: 'Npm', link:'https://www.npmjs.com/package/tanma-ui'
       }],
