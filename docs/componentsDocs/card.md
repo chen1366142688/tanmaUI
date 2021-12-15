@@ -3,7 +3,7 @@
 
 ### 示例
 
-<t-card imgSrc="/1.jpg" summary="Card Summary"/>
+<t-card imgSrc="tanmaUI/1.jpg" summary="Card Summary"/>
 
 ### 代码
 ```html
