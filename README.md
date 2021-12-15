@@ -1,24 +1,20 @@
-# tanma-ui
+# tanma-ui 组件库
+### 快速开始
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+#### 1.安装组件库
+```bash
+npm i tanma-ui
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### 2.引用组件库
+```javascript
+//全部引入
+import 'tanma-ui/dist/css/index.css';
+import TUI from 'tanma-ui';
+Vue.use(TUI);
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+//按需引入
+import 'tanma-ui/dist/css/demo.css';
+import { Demo } from 'tanma-ui';
+Vue.use(Demo)
+````
