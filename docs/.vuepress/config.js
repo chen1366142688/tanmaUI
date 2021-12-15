@@ -3,7 +3,7 @@ module.exports = {
   base: '/tanmaUI/',
   themeConfig: {
     nav: [{
-      text: 'HOme', link:'/'
+      text: 'Home', link:'/'
     }, {
       text:'Githun', link:'https://guthub.com/chen1366142688/tanmaUI'
       }, {
