@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 // const sass = require('gulp-sass') //sass-> css
-var sass = require('gulp-sass')(require('sass'));
+const sass = require('gulp-sass')(require('sass'));
 const minifyCSS = require('gulp-minify-css'); //压缩css
 
 gulp.task('sass', async function() {  //打包报错Task never defined: scss - did you mean? sass  未处理
