@@ -1,6 +1,6 @@
 {
   "name": "tanma-ui",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "探马测试组件库",
   "main": "dist/index.umd.js",
   "keywords": [

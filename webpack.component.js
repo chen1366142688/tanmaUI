@@ -16,6 +16,7 @@ async function makeList(dirPath, list) {
     console.log(component)
     list[component] = `./${file}`
   }
+  console.log(list)
 }
 
 makeList('components/lib', list)
@@ -35,7 +36,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /|.vue$/,
+        test: /\.vue$/,
         use: [
           {
             loader: 'vue-loader',

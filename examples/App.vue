@@ -22,7 +22,6 @@
         imgSrc="7.jpg"
         :width="370"
         :imgHeight="90"
-        summary="这是一张美女图片，这也太美了吧,美的不要不要的，让人产生遐想"
       >
         这是一张美女图片，这也太美了吧,美的不要不要的，让人产生遐想
         <template v-slot:footer>
