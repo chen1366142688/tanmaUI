@@ -1,0 +1,49 @@
+.t-table-wrapper{
+  position: relative;
+  .addDelteBtnGroup{
+    text-align: right;
+    margin:10px 0;
+    button{
+      margin: 0px;
+      padding: 0px;
+      /*自定义边框*/
+      border: 0px;
+      /*消除默认点击蓝色边框效果*/
+      outline: none;
+      height: 32px;
+      padding: 0 15px;
+      border-radius: 4px;
+      font-size: 14px;
+      background-color: #2d8cf0;
+      border-color: #2d8cf0;
+      color:#fff;
+    }
+  }
+  table{
+    border: 1px solid #DFD9DE;
+    border-collapse:collapse;  //表格的边框合并，如果相邻，则共用一个边框。
+    border-spacing:0px;  
+    .tHead{
+      background-color: #f8f8f9;
+      tr{
+        th{
+          height: 40px;
+          white-space: normal;
+          overflow: hidden;
+        }
+      }
+    }
+    .tBody{
+      background-color: #fff;
+      tr{
+        td{
+          height: 48px;
+          min-width: 10px;
+          box-sizing: border-box;
+          text-overflow: ellipsis;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

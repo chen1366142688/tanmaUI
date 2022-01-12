@@ -1,8 +1,9 @@
 import Demo from './demo'
 import Card from './card'
+import Table from './table'
 
 const components = {
-  Demo,Card
+  Demo,Card,Table
 }
 
 const install = function (Vue) { 
